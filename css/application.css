@@ -66,18 +66,20 @@ nav li:last-child { padding-right: 0; }
 header a, header a:visited {
     color: #fff;
     text-decoration: none;
-    border-bottom: 0.125em solid #fff;
 }
 
 header a:focus, header a:hover, header a:active,
-.home header a.home, .home header a.home:visited,
-.resume header a.resume, .resume header a.resume:visited
+.home header a.home,
+.resume header a.resume
 {
     color: #fff;
-    border-top: 0.125em solid #fff;
+    border-bottom: 0.125em solid #fff;
 }
 
 header a:active {
-    color: #ccc;
-    border-color: #ccc !important; /* Overrides `.X header a.X`. */
+    /* Needs !important because we're overriding values
+     * set using the far more specific selectors above.
+     */
+    color: #ccc !important;
+    border-color: #ccc !important;
 }
