@@ -63,5 +63,14 @@ nav li {
 }
 nav li:last-child { padding-right: 0; }
 
-header a, header a:visited { color: #fff; }
-header a:active, header a:focus, header a:hover { color: #ccc; }
+header a, header a:visited {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 0.125em solid #fff;
+}
+header a:focus, header a:hover, header a:active {
+    color: #ccc;
+    border-top: 0.125em solid #ccc;
+    border-bottom-color: #ccc;
+}
+
