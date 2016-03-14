@@ -68,9 +68,16 @@ header a, header a:visited {
     text-decoration: none;
     border-bottom: 0.125em solid #fff;
 }
-header a:focus, header a:hover, header a:active {
-    color: #ccc;
-    border-top: 0.125em solid #ccc;
-    border-bottom-color: #ccc;
+
+header a:focus, header a:hover, header a:active,
+.home header a.home, .home header a.home:visited,
+.resume header a.resume, .resume header a.resume:visited
+{
+    color: #fff;
+    border-top: 0.125em solid #fff;
 }
 
+header a:active {
+    color: #ccc;
+    border-color: #ccc !important; /* Overrides `.X header a.X`. */
+}
