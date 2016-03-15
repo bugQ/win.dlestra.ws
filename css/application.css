@@ -83,3 +83,8 @@ header a:active {
     color: #ccc !important;
     border-color: #ccc !important;
 }
+
+header .special {
+    position: absolute;
+    right: 0px;
+}
