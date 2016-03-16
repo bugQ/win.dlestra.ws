@@ -2,13 +2,13 @@
 
 html {
     box-sizing: border-box;
-    text-rendering: optimizeLegibility
+    text-rendering: optimizeLegibility;
 }
 
 *, *:before, *:after { box-sizing: inherit; }
 
-a, a:visited { color: #883112; }
-a:active, a:focus, a:hover { color: #C4471A; }
+a, a:visited { color: #831; }
+a:active, a:focus, a:hover { color: #C42; }
 
 html, body {
     margin: 0;
@@ -19,8 +19,8 @@ html, body {
     font-family: sans-serif;
     font-size: 120%;
 
-    background: #609157;
-    color: #370F0D;
+    background: #696;
+    color: #411;
 }
 
 h1 { font-size: 2.5em; }
@@ -36,7 +36,7 @@ h2 { padding-bottom: 1em; }
 /* Content. */
 
 main {
-    background: #C0D6BB;
+    background: #CDB;
     min-height: 100%;
     max-width: 800px;
     max-width: 75ch;
@@ -46,7 +46,7 @@ main {
 
 /* Navigation. */
 nav {
-    background: #883112;
+    background: #831;
     margin: 0 -2em;
     padding: 1em 3em;
 }
@@ -64,23 +64,23 @@ nav li {
 nav li:last-child { padding-right: 0; }
 
 nav {
-    color: #fff;
+    color: #FFF;
 }
 
 nav a, nav a:visited {
+    color: #FFF;
     text-decoration: none;
     font-weight: 900;
 }
 
-nav a:focus, nav a:hover, nav a:active,
-.home nav a.home,
-.resume nav a.resume
-{
-    text-decoration: underline;
+nav a:focus, nav a:hover {
+    border-bottom: dotted;
 }
 
-nav a:active {
-    color: #ccc;
+nav a:active,
+.home nav a.home,
+.resume nav a.resume {
+    border-bottom: solid;
 }
 
 nav .featured {
@@ -88,9 +88,9 @@ nav .featured {
 }
 
 nav a.maui {
-    color: #daf;
+    color: #DAF;
 }
 
 nav a.greenlight {
-    color: #cfa;
+    color: #696;
 }
