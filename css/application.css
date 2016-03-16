@@ -23,6 +23,9 @@ html, body {
     color: #411;
 }
 
+address.email:before { content: attr(local-part); }
+address.email:after { content: attr(domain-part); }
+
 h1 { font-size: 2.5em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.3em; }
