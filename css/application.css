@@ -82,7 +82,8 @@ nav a:focus, nav a:hover {
 
 nav a:active,
 .home nav a.home,
-.resume nav a.resume {
+.resume nav a.resume,
+.games nav a.games {
     border-bottom: solid;
 }
 
