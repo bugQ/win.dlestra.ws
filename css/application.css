@@ -17,7 +17,7 @@ html, body {
     height: 100%;
 
     font-family: sans-serif;
-    font-size: 110%;
+    font-size: 120%;
 
     background: #609157;
     color: #370F0D;
@@ -63,28 +63,34 @@ nav li {
 }
 nav li:last-child { padding-right: 0; }
 
-header a, header a:visited {
+nav {
     color: #fff;
+}
+
+nav a, nav a:visited {
     text-decoration: none;
+    font-weight: 900;
 }
 
-header a:focus, header a:hover, header a:active,
-.home header a.home,
-.resume header a.resume
+nav a:focus, nav a:hover, nav a:active,
+.home nav a.home,
+.resume nav a.resume
 {
-    color: #fff;
-    border-bottom: 0.125em solid #fff;
+    text-decoration: underline;
 }
 
-header a:active {
-    /* Needs !important because we're overriding values
-     * set using the far more specific selectors above.
-     */
-    color: #ccc !important;
-    border-color: #ccc !important;
+nav a:active {
+    color: #ccc;
 }
 
-header .special {
-    position: absolute;
-    right: 0px;
+nav .featured {
+    float: right;
+}
+
+nav a.maui {
+    color: #daf;
+}
+
+nav a.greenlight {
+    color: #cfa;
 }
