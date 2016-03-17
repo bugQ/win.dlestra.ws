@@ -1,5 +1,7 @@
 /* Defaults and body. */
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:500italic,500,800);
+
 html {
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
@@ -16,8 +18,9 @@ html, body {
     padding-top: 1em;
     height: 100%;
 
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 120%;
+    font-weight: 500;
 
     background: #696;
     color: #411;
@@ -73,7 +76,7 @@ nav {
 nav a, nav a:visited {
     color: #FFF;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 nav a:focus, nav a:hover {
