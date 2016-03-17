@@ -9,7 +9,7 @@ html {
 
 *, *:before, *:after { box-sizing: inherit; }
 
-a { border-bottom: dotted; }
+a { text-decoration: none; border-bottom: dotted; }
 a:active { border-bottom: solid; }
 a, a:visited { color: #831; }
 a:active, a:focus, a:hover { color: #C42; }
