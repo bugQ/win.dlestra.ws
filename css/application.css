@@ -9,6 +9,8 @@ html {
 
 *, *:before, *:after { box-sizing: inherit; }
 
+a { border-bottom: dotted; }
+a:active { border-bottom: solid; }
 a, a:visited { color: #831; }
 a:active, a:focus, a:hover { color: #C42; }
 
@@ -76,6 +78,7 @@ nav {
 nav a, nav a:visited {
     color: #FFF;
     text-decoration: none;
+    border: none;
     font-weight: 800;
 }
 
