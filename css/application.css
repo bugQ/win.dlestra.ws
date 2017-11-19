@@ -1,6 +1,6 @@
 /* Defaults and body. */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:500italic,500,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Josefin+Slab:400,600,700|Fugaz+One);
 
 html {
     box-sizing: border-box;
@@ -21,12 +21,23 @@ html, body {
     height: 100%;
 
     font-family: 'Raleway', sans-serif;
-    font-size: 120%;
-    font-weight: 500;
+    font-size: 110%;
 
     background: #696;
     color: #411;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Slab', serif;
+}
+
+header h1 {
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+}
+
+h1 { font-weight: 700; }
+h2, h3, h4, h5, h6 { font-weight: 600; }
 
 address.email:before { content: attr(local-part); }
 address.email:after { content: attr(domain-part); }
@@ -38,9 +49,69 @@ h4 { font-size: 1.2em; }
 h5 { font-size: 1.1em; }
 
 h1, h2 {
-  margin: 0;
-  padding: 0.5em 0;
+    margin: 0;
+    padding: 0.5em 0;
 }
+
+
+
+/* Navigation. */
+
+nav {
+    background: #831;
+    margin: 0 -2em;
+    padding: 1em 3em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1em;
+}
+nav li:last-child { padding-right: 0; }
+
+nav {
+    color: #FFF;
+}
+
+nav a, nav a:visited {
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    font-weight: 800;
+    font-family: 'Josefin Slab', serif;
+}
+
+nav a:focus, nav a:hover {
+    border-bottom: dotted;
+}
+
+nav a:active,
+.home nav a.home,
+.cv nav a.cv,
+.games nav a.games {
+    border-bottom: solid;
+}
+
+nav .featured {
+    float: right;
+}
+
+nav a.maui {
+    color: #DAF;
+    font-family: 'Fugaz One', cursive;
+}
+
+nav a.steam {
+    color: #AF9;
+    font-family: 'Fugaz One', cursive;
+}
+
 
 /* Content. */
 
@@ -53,8 +124,14 @@ main {
     padding: 1em;
 }
 
-.cv h3 {
-    float: right;
+.cv h2 {
+    clear: both;
+    text-align: right;
+}
+
+.cv h2 a {
+    float: left;
+    text-align: left;
 }
 
 .gamelist {
@@ -86,55 +163,3 @@ main {
     clear: left;
 }
 
-/* Navigation. */
-nav {
-    background: #831;
-    margin: 0 -2em;
-    padding: 1em 3em;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    padding-right: 1em;
-}
-nav li:last-child { padding-right: 0; }
-
-nav {
-    color: #FFF;
-}
-
-nav a, nav a:visited {
-    color: #FFF;
-    text-decoration: none;
-    border: none;
-    font-weight: 800;
-}
-
-nav a:focus, nav a:hover {
-    border-bottom: dotted;
-}
-
-nav a:active,
-.home nav a.home,
-.resume nav a.resume,
-.games nav a.games {
-    border-bottom: solid;
-}
-
-nav .featured {
-    float: right;
-}
-
-nav a.maui {
-    color: #DAF;
-}
-
-nav a.steam {
-    color: #AF9;
-}

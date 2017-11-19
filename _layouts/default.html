@@ -16,21 +16,21 @@
 <main>
   <header>
     <h1>bug!</h1>
-    <h2>{{ page.sound }} {{ page.sound }}</h2>
+    <!--<h2>{{ page.sound }} {{ page.sound }}</h2>-->
 
     <nav>
       <ul>
         <li><a class="home" href="./">Home</a></li>
-        <li><a class="resum&eacute;" href="./cv.html">Resume</a></li>
+        <li><a class="cv" href="./cv.html">Resume</a></li>
         <li><a class="games" href="./games.html">Games</a></li>
         <li class="featured"><a class="maui" href="http://www.kokuagames.com/">Maui</a>
             is on <a class="steam" href="http://store.steampowered.com/app/464700">Steam!</a></li>
       </ul>
     </nav>
   </header>
-
-  {{ content }}
-
+  <main class="{{ page.class }}">
+    {{ content }}
+  </main>
   <footer>
     <address class="email" local-part="bug" domain-part="dlestra.ws">@</address>
   </footer>
