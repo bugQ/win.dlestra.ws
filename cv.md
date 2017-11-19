@@ -98,7 +98,8 @@ about the purpose, safety, and methodology of prenatal screening tests.
 Some of the challenges faced in these two projects included:
 
 - providing regular mockups and builds to partners and incorporating feedback,
-- interfacing with <RedCAP databases in a HIPAA-compliant manner,
+- interfacing with [RedCAP](https://www.project-redcap.org/) databases in a
+  HIPAA-compliant manner,
 - importing and parsing data from portable blood screening devices,
 - ensuring language-independent UI and pictographic design,
 - representing statistical data in interactive, exporable ways,
