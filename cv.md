@@ -1,11 +1,11 @@
 ---
 layout: default
-title: resum&eacute;
+title: résumé
 sound: work
 class: cv
 ---
 
-# Summary of Skills
+# Résumé des Compétences
 
 I'm a game engineer with 3+ years of experience in game development contract
 work, 5+ years overall development experience, and training in a broad range
@@ -35,7 +35,7 @@ Although a majority of my experience lies with <b>C++</b>, <b>C#</b>, and
 relatively naturally, with a preference toward the functional.
 
 
-# Education
+# Éducation
 
 ## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu)
 
@@ -48,7 +48,7 @@ relatively naturally, with a preference toward the functional.
 *[M.E.A.E]: Master of Entertainment Arts and Engineering
 
 
-# Experience
+# Expérience
 
 ## 2005._12_ --Today [Tutoring]()
 
