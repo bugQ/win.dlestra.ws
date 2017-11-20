@@ -50,7 +50,7 @@ relatively naturally, with a preference toward the functional.
 
 # Experience
 
-## 2005._12_ -- Today [Tutoring]()
+## 2005._12_ --Today [Tutoring]()
 
 I provide one-on-one help to students of mathematics and computer science, up to and including calculus, linear algebra and statistics, as well as boolean logic, computer architecture, scientific computing, and high-level software design.
 
