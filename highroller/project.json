@@ -1,0 +1,70 @@
+{
+  "name": "highroller",
+  "assets": [
+    {
+      "id": "0",
+      "name": "hill",
+      "type": "scene"
+    },
+    {
+      "id": "3",
+      "name": "Player",
+      "type": "script"
+    },
+    {
+      "id": "12",
+      "name": "Start",
+      "type": "script"
+    },
+    {
+      "id": "7",
+      "name": "start",
+      "type": "scene"
+    },
+    {
+      "id": "14",
+      "name": "guide",
+      "type": "sprite"
+    },
+    {
+      "id": "11",
+      "name": "logo",
+      "type": "sprite"
+    },
+    {
+      "id": "10",
+      "name": "SpinBounce",
+      "type": "script"
+    },
+    {
+      "id": "4",
+      "name": "World",
+      "type": "script"
+    },
+    {
+      "id": "1",
+      "name": "die",
+      "type": "cubicModel"
+    },
+    {
+      "id": "2",
+      "name": "ground",
+      "type": "cubicModel"
+    },
+    {
+      "id": "6",
+      "name": "win",
+      "type": "cubicModel"
+    },
+    {
+      "id": "13",
+      "name": "lose",
+      "type": "cubicModel"
+    },
+    {
+      "id": "9",
+      "name": "start_button",
+      "type": "cubicModel"
+    }
+  ]
+}

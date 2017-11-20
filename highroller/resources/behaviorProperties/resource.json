@@ -1,0 +1,38 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "3",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "target",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "WorldBehavior": {
+      "scriptId": "4",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SpinBounceBehavior": {
+      "scriptId": "10",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "running",
+          "type": "boolean"
+        }
+      ]
+    },
+    "StartBehavior": {
+      "scriptId": "12",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

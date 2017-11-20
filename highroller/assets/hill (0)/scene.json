@@ -1,0 +1,322 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "player",
+      "children": [],
+      "components": [
+        {
+          "type": "CubicModelRenderer",
+          "config": {
+            "cubicModelAssetId": "1"
+          },
+          "id": "0"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 1,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "2"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "PlayerBehavior",
+            "propertyValues": {}
+          },
+          "id": "4"
+        }
+      ],
+      "position": {
+        "x": -12,
+        "y": 1,
+        "z": 12
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "2",
+      "name": "camera",
+      "children": [],
+      "components": [
+        {
+          "type": "Camera",
+          "config": {
+            "mode": "perspective",
+            "fov": 60,
+            "orthographicScale": 10,
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 1
+            },
+            "depth": 0,
+            "nearClippingPlane": 0.1,
+            "farClippingPlane": 1000
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -19,
+        "y": 13,
+        "z": 22
+      },
+      "orientation": {
+        "x": -0.2807330485513813,
+        "y": -0.3417815880862382,
+        "z": -0.10776332078472653,
+        "w": 0.8903714776371404
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "1",
+      "name": "ground",
+      "children": [],
+      "components": [
+        {
+          "type": "CubicModelRenderer",
+          "config": {
+            "cubicModelAssetId": "2"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "WorldBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 16,
+              "y": 16,
+              "z": 16
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "3"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": -16,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 32,
+        "y": 32,
+        "z": 32
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "4",
+      "name": "win",
+      "children": [],
+      "components": [
+        {
+          "type": "CubicModelRenderer",
+          "config": {
+            "cubicModelAssetId": "6"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "SpinBounceBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 5,
+        "y": 5,
+        "z": -5
+      },
+      "orientation": {
+        "x": 0,
+        "y": -0.3826834323650898,
+        "z": 0,
+        "w": 0.9238795325112867
+      },
+      "scale": {
+        "x": 8,
+        "y": 8,
+        "z": 8
+      },
+      "visible": false,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "5",
+      "name": "lose",
+      "children": [],
+      "components": [
+        {
+          "type": "CubicModelRenderer",
+          "config": {
+            "cubicModelAssetId": "13"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "SpinBounceBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 5,
+        "y": 5,
+        "z": -5
+      },
+      "orientation": {
+        "x": 0,
+        "y": -0.3826834323650898,
+        "z": 0,
+        "w": 0.9238795325112867
+      },
+      "scale": {
+        "x": 8,
+        "y": 8,
+        "z": 8
+      },
+      "visible": false,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "6",
+      "name": "target",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 11,
+        "y": 1,
+        "z": -11
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿MEAE Spring 2016
+Experimental Games
+Round 3: “Roll and Move”
+
+Author: Harrison “bug” Reiser
+Title: High Roller
+
+Hypothesis: how literally can we interpret the implied mechanics of the phrase
+ “roll and move” while still subverting the concept?
+
+
+Test: High Roller is a 3D game which involves rolling a six-sided die across a
+ high platform to a small target at the top of the screen.  The game was built
+ using Superpowers, a web-based environment for building web-based (WebGL)
+ games.  It includes a tool for creating cubic models (which can be composed
+ of any number of cubes, but in this case only required one each) and coloring
+ their textures directly in the game editor.  This, the scene editor, and a bit
+ of scripting and trigonometry were all that were necessary to draft a
+ prototype.  After coming up with the concept, the prototype was completed in
+ less than five hours.
+
+
+Results:  The platform is flat, as are the faces of the die, and the hardbody
+ physics engine is fairly deterministic.  The only adversaries the player faces
+ are the edges of the platform, the peculiarities of how a cube rolls on a flat
+ surface, and one other thing: the fact that each roll, each impulse exerted on
+ the die in the direction of the player’s click, is scaled by the number it last
+ landed on.  In this way, the concept of rolling and moving are retained in the
+ most literal of senses, including the staple of such games, the six-sided die.
+ However, the mechanic is very unlike other “roll and move” games, not in the
+ least because it affords vastly more player agency, while still feeling largely
+ unpredictable.
+ 
+ Playtesters enjoyed the concept instantly and wanted for more levels immediately
+ after playing.  The hypothesis was fulfilled, and this game seems like a very
+ good candidate for further polish.
