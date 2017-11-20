@@ -1,4 +1,2 @@
 name: bug!
-markdown: redcarpet
-redcarpet:
-  extensions: [smart]
+markdown: kramdown

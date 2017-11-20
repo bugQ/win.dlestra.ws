@@ -1,6 +1,6 @@
 /* Defaults and body. */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Josefin+Slab:400,600,700|Fugaz+One);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600|Josefin+Slab:400,600,700|Fugaz+One);
 
 html {
     box-sizing: border-box;
@@ -9,15 +9,15 @@ html {
 
 *, *:before, *:after { box-sizing: inherit; }
 
-a { text-decoration: none; border-bottom: dotted; }
-a:active { border-bottom: solid; }
+a { text-decoration: none; font-weight: 600; }
+a:focus, a:hover { border-bottom: 3px dotted; margin-bottom: -3px; }
+a:active { border-bottom: 3px solid; margin-bottom: -3px; }
 a, a:visited { color: #831; }
 a:active, a:focus, a:hover { color: #C42; }
 
 html, body {
     margin: 0;
     padding: 0;
-    padding-top: 1em;
     height: 100%;
 
     font-family: 'Raleway', sans-serif;
@@ -27,18 +27,40 @@ html, body {
     color: #411;
 }
 
+main, header, footer {
+    background: #CDB;
+    max-width: 800px;
+    max-width: 75ch;
+    margin: 0 auto;
+}
+
+main {
+    padding: 1em 2em;
+}
+
+footer {
+    padding: 1em 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Josefin Slab', serif;
+    margin: 0.5em 0;
+}
+
+h1, h2 {
+    margin-top: 1em;
 }
 
 header h1 {
     font-family: 'Fugaz One', cursive;
     text-align: center;
+    padding: 0.5em 0 0;
 }
 
 h1 { font-weight: 700; }
 h2, h3, h4, h5, h6 { font-weight: 600; }
 
+address.email { text-align: center; }
 address.email:before { content: attr(local-part); }
 address.email:after { content: attr(domain-part); }
 
@@ -47,11 +69,6 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.3em; }
 h4 { font-size: 1.2em; }
 h5 { font-size: 1.1em; }
-
-h1, h2 {
-    margin: 0;
-    padding: 0.5em 0;
-}
 
 
 
@@ -88,7 +105,7 @@ nav a, nav a:visited {
 }
 
 nav a:focus, nav a:hover {
-    border-bottom: dotted;
+    border-bottom: 3px dotted; margin-bottom: -3px;
 }
 
 nav a:active,
@@ -115,51 +132,54 @@ nav a.steam {
 
 /* Content. */
 
-main {
-    background: #CDB;
-    min-height: 100%;
-    max-width: 800px;
-    max-width: 75ch;
-    margin: 0 auto;
-    padding: 1em;
+.cv main h2 {
+    display: flex;
 }
 
-.cv h2 {
-    clear: both;
+.cv main h2 a {
+    flex: 2;
     text-align: right;
+    border-bottom: 3px dotted; margin-bottom: -3px;
 }
 
-.cv h2 a {
-    float: left;
-    text-align: left;
-}
-
-.gamelist {
+.games main ul {
     list-style-type: none;
     margin: 0 0 1em;
     padding: 0;
     overflow: auto;
 }
 
-.gamelist li:nth-of-type(even) .gamebanner {
-    float: left;
-    margin-right: 1em;
-    width: 40%;
-    clear: right;
+.games main h2 a {
+    font-family: 'Fugaz One', cursive;
 }
 
-.gamelist li:nth-of-type(even) h3 {
-    clear: right;
+.games main ul li {
 }
 
-.gamelist li:nth-of-type(odd) .gamebanner {
+.games main ul li h2 img {
+    width: 60%;
+}
+
+.games main ul li:nth-of-type(odd) {
+    text-align: right;
+}
+
+.games main ul li:nth-of-type(odd) h2 img {
     float: right;
     margin-left: 1em;
-    width: 40%;
     clear: left;
 }
 
-.gamelist li:nth-of-type(odd) h3 {
+.games main ul li:nth-of-type(odd) h2 {
     clear: left;
 }
 
+.games main ul li:nth-of-type(even) h2 img {
+    float: left;
+    margin-right: 1em;
+    clear: right;
+}
+
+.games main ul li:nth-of-type(even) h2 {
+    clear: right;
+}
