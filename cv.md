@@ -35,12 +35,33 @@ Although a majority of my experience lies with <b>C++</b>, <b>C#</b>, and
 relatively naturally, with a preference toward the functional.
 
 
+# Education
+
+## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu)
+
+### M.E.A.E. Game Engineering, 3.505
+### B.S. Computer Engineering, 3.456
+#### Minor: Mathematics
+### B.S. Computer Science, 3.434
+#### Minor: Japanese
+
+*[M.E.A.E]: Master of Entertainment Arts and Engineering
+
+
 # Experience
 
-## 2017.04--2017.09 [Punk This Studios](http://punkthisstudios.com)
+## 2005._12_ -- Today [Tutoring]()
 
-Working under the direction of the company founder, and over long-distance
-remote communication, I rewrote a prototype 2.5D game engine from SDL/C++98
+I provide one-on-one help to students of mathematics and computer science, up to and including calculus, linear algebra and statistics, as well as boolean logic, computer architecture, scientific computing, and high-level software design.
+
+I make special effort to ensure that students are self-motivated, and to reveal the simplicity underlying most complex topics, through the use of allegorical language and visual aids, on which we then collaborate to achieve understanding.
+
+Most of this work has been done on a volunteer or informal contract basis.
+
+## 2017._04_--2017._09_ [Punk This Studios](http://punkthisstudios.com)
+
+Working under the direction of the company founder, over a long-distance
+remote contract, I rewrote a prototype 2.5D game engine from SDL/C++98
 into SDL2/C++11 while cooperatively working out design flaws and designing
 new features.  We exchanged expertise regarding C++11 standards and
 practices, maintaining a high level of code quality through code reviews and
@@ -59,7 +80,7 @@ Additionally, I incorporated and documented build scripts for a
 build and bringing it into stricter C++ standards adherence.
 
 
-## 2015.08--2016.05 [Kokua Games](https://www.kokuagames.com/)
+## 2015._08_--2016._05_ [Kokua Games](https://www.kokuagames.com/)
 
 This was a 12-member professional game project at the
 [EAE Master Game Studio](https://eae.utah.edu/graduate-programs/),
@@ -85,7 +106,9 @@ the ***Halau*** (School). In addition, I:
   [video review by GamingArcheo](https://youtu.be/B-90i49uuzc)).
 
 
-## 2015.08--2016.05 [<abbr title="Theraputic Games and Apps Lab">The Gapp Lab</abbr>](https://thegapp.eae.utah.edu/)
+## 2015._08_--2016._05_ [The Gapp Lab](https://thegapp.eae.utah.edu/)
+
+*[The Gapp Lab]: Theraputic Games and Apps Lab
 
 Partnering with research institutions and grant groups, I was the lead
 engineer in two projects, using the tools (primarily Unity) and methodology
@@ -106,7 +129,7 @@ Some of the challenges faced in these two projects included:
 - and procedurally animating many small actors using Game AI techniques.
 
 
-## 2014.12--2015.06 [XacFAQ](http://www.guv1.com/xacfaq/)
+## 2014._12_--2015._06_ [XacFAQ](http://www.guv1.com/xacfaq/)
 
 Founded by industry veteran Jon Dean, XacFAQ used Unity to produce social
 games and apps.  I was hired in 2014 on a contract with a third party to
@@ -122,7 +145,7 @@ work involved:
 - and integration with plugins for Facebook accounts and in-app purchases.
 
 
-## 2012.01--2014.04 [J. Willard Marriott Library](https://lib.utah.edu)
+## 2012._01_--2014._04_ [J. Willard Marriott Library](https://lib.utah.edu)
 
 Working in the library's Apple IT Services group, which oversees hundreds of
 Mac workstations and servers across the University of Utah campus, I was
@@ -134,3 +157,4 @@ assigned special software projects such as:
 
 As a computer support technician, I also shared responsibly for software
 package updates and maintenance, and responding to technical support tickets.
+

@@ -134,12 +134,23 @@ nav a.steam {
 
 .cv main h2 {
     display: flex;
+    align-items: baseline;
+    border-bottom: 3px #831 dotted;
 }
 
 .cv main h2 a {
     flex: 2;
     text-align: right;
-    border-bottom: 3px dotted; margin-bottom: -3px;
+    border-bottom: none;
+}
+
+.cv main h2 em {
+    font-style: normal;
+    font-size: 0.71em;
+}
+
+.cv main h4 {
+    margin-left: 2em;
 }
 
 .games main ul {
