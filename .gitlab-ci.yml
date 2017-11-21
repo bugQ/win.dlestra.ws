@@ -4,10 +4,10 @@ pages:
   script:
   - gem install jekyll
   - gem install kramdown
-  - jekyll build -d public
+  - jekyll build
   artifacts:
     paths:
-    - public
+    - _site
   only:
   - master
 
