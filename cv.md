@@ -37,13 +37,24 @@ relatively naturally, with a preference toward the functional.
 
 # Éducation
 
-## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu)
+## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu/)
 
-### M.E.A.E. Game Engineering, 3.505
-### B.S. Computer Engineering, 3.456
+### M.E.A.E. Game Engineering
+#### Directed Electives:
+- Ethics in Games
+- A.I. for Games
+
+### B.S. Computer Engineering
 #### Minor: Mathematics
-### B.S. Computer Science, 3.434
+#### Directed Electives:
+- Engineering, Ethics, and Society
+- Chaos Theory
+
+### B.S. Computer Science
 #### Minor: Japanese
+#### Directed Electives:
+- Gender and Social Change
+- Zen and Eastern Theatre
 
 *[M.E.A.E]: Master of Entertainment Arts and Engineering
 
@@ -58,7 +69,7 @@ I make special effort to ensure that students are self-motivated, and to reveal 
 
 Most of this work has been done on a volunteer or informal contract basis.
 
-## 2017._04_--2017._09_ [Punk This Studios](http://punkthisstudios.com)
+## 2017._04_--2017._09_ [Punk This Studios](http://punkthisstudios.com/)
 
 Working under the direction of the company founder, over a long-distance
 remote contract, I rewrote a prototype 2.5D game engine from SDL/C++98
@@ -82,13 +93,13 @@ build and bringing it into stricter C++ standards adherence.
 
 ## 2015._08_--2016._05_ [Kokua Games](https://www.kokuagames.com/)
 
-This was a 12-member professional game project at the
-[EAE Master Game Studio](https://eae.utah.edu/graduate-programs/),
-released on Steam in April 2016.  
+[Maui](https://www.kokuagames.com/) was a 12-member professional game project
+at the [EAE Master Game Studio](https://eae.utah.edu/graduate-programs/),
+[released on Steam](http://store.steampowered.com/app/464700) in April 2016.  
 
-Following lead designer Sean Keanaaina's design documentation, I contributed
-the implementation of the game's central mechanic, ***Maomeka Pule***, an
-innovative HUD system for modulating the player characters's attributes in
+Following Hawaii native lead designer Sean Keanaaina's direction, I
+contributed the implementation of Maui's central mechanic, ***Maomeka Pule***, 
+an innovative HUD system for modulating the player characters's attributes in
 realtime.  Named for the concept of Prayer (*Pule*), the system was designed
 to reflect the geographic houses of [the four primary gods of the Hawaiian
 pantheon](http://paulwaters.com/learning/in-the-begining-hawaiian-gods/), and

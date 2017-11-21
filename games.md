@@ -9,7 +9,7 @@ class: games
 
 These titles were team projects involving more than a dozen members each.
 Information about team members or specific contributions can be found on my
-[resume](cv.html) or by request.
+[résumé](cv.html) or by request.
 
 - ## [![Maui](./image/gamebanner/MauiBanner-640x215.jpg) Maui](http://www.kokuagames.com)
   ### (1 player, [Steam](http://store.steampowered.com/app/464700), Windows)
