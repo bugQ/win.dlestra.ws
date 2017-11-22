@@ -40,21 +40,15 @@ relatively naturally, with a preference toward the functional.
 ## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu/)
 
 ### M.E.A.E. Game Engineering
-#### Directed Electives:
-- Ethics in Games
-- A.I. for Games
+- Elective: Ethics in Games
 
-### B.S. Computer Engineering
-#### Minor: Mathematics
-#### Directed Electives:
-- Engineering, Ethics, and Society
-- Chaos Theory
+### B.S. Computer Engineering (Mathematics Minor)
+- Elective: Engineering, Ethics, and Society
+- Elective: Chaos Theory
 
-### B.S. Computer Science
-#### Minor: Japanese
-#### Directed Electives:
-- Gender and Social Change
-- Zen and Eastern Theatre
+### B.S. Computer Science (Japanese Minor)
+- Elective: Gender and Social Change
+- Elective: Zen and Eastern Theatre
 
 *[M.E.A.E]: Master of Entertainment Arts and Engineering
 

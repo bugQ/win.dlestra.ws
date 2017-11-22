@@ -149,8 +149,9 @@ nav a.steam {
     font-size: 0.71em;
 }
 
-.cv main h4, .cv main h4 + ul {
-    margin-left: 1em;
+.cv main h3 + ul {
+    margin-top: 0;
+    font-style: italic;
 }
 
 .games main ul {
