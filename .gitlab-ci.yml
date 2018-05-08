@@ -1,6 +1,6 @@
 pages:
   stage: deploy
-  image: ruby:2.1
+  image: ruby:2.5
   script:
   - gem install jekyll
   - gem install kramdown
