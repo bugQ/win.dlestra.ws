@@ -2,7 +2,7 @@
 layout: default
 title: apps!
 sound: chirp
-class: ganes
+class: games
 ---
 
 # Current Projects
