@@ -5,7 +5,7 @@ sound: work
 class: cv
 ---
 
-# Résumé des Compétences
+# Résumé
 
 I'm a game engineer with 3+ years of experience in game development contract
 work, 5+ years overall development experience, and training in a broad range
