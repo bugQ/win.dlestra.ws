@@ -21,7 +21,7 @@ samples may be available for other projects [upon request](#contact).
   research grant team, we designed this app to present facts and statistics
   about non-invasive prenatal screening to expectant parents in an
   approachable way, aiming to reduce decision anxiety and misinformation.
-- ## [![DataMural ASHA Endpoint](./image/appscreen/DataMural-screen01.jpg) DataMural ASHA Endpoint](https://datamural.com/)
+- ## [![DataMural ASHA Endpoint](./image/appscreen/DataMural-screen01.jpg) DataMural ASHA Endpoint](http://datamural.com/)
   We worked with epidemiology data specialists DataMural LLC to design an
   app for [ASHAs](http://nhm.gov.in/communitisation/asha/about-asha.html)
   in Mumbai to screen for infectious diseases, integrating with portable
