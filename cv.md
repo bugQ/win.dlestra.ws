@@ -7,32 +7,25 @@ class: cv
 
 # Résumé
 
-I'm a game engineer with 3+ years of experience in game development contract
-work, 5+ years overall development experience, and training in a broad range
-of areas. I'm accustomed to acquiring skills and fulfilling roles as the job
-mandates, including overseeing <b>source code integration</b>, <b>web/server
-administration</b>, <b>team management</b>, and <b>software training</b>.  I
-also have volunteer and work experience with <b>individual tutoring</b> in a
-variety of mathematics and science subjects.
+I'm a game engineer with over 4 years professional software development
+experience and a strong educational backing in engineering practice and theory,
+as well as many years of experience passing along knowledge on in tutoring and
+peer training. I'm accustomed to acquiring skills and fulfilling roles as the
+job mandates, including:
 
-In summary of my technical skills, I've done work in the following areas:
+- source code integration
+- server administration
+- team management
+- meeting facilitation
+- peer software training
 
-- 2D and 3D realtime rendering,
-- 2D and 3D realtime physics,
-- AI and pathfinding,
-- networking and messaging,
-- event and trigger systems,
-- gameplay scripting,
-- asset/metadata [de]serialization,
-- memory management and optimization.
-
-I'm familiar with <b>cross-platform development</b> for and on all major
-operating systems, using anything from <b>SDL2</b> to raw
-<b>OpenGL</b>/<b>GLSL</b> and <b>DirectX</b>/<b>HLSL</b> to
-[<b>Unity</b>](https://unity3d.com/) and [<b>Phaser</b>](https://phaser.io/).
-Although a majority of my experience lies with <b>C++</b>, <b>C#</b>, and
-<b>Javascript</b>, crafting abstractions in most programming languages comes
-relatively naturally, with a preference toward the functional.
+On the more technical side, I'm familiar with cross-platform front-end
+development (for desktop and mobile) using a variety of frameworks and
+tools, but with an emphasis on [Unity](https://unity3d.com/) and now
+also [Xamarin](https://www.xamarin.com/). Although a majority of my
+programming experience lies with **C#** and **C++**, I have worked with
+and maintain familiarity with other languages, including
+**Javascript**, **Ruby**, **Rust**, **Haskell**, **F#** and **OCaml**.
 
 
 # Éducation
@@ -40,15 +33,16 @@ relatively naturally, with a preference toward the functional.
 ## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu/)
 
 ### M.E.A.E. Game Engineering
-- Elective: Ethics in Games
+- Rapid Prototyping
+- A.I. for Games
 
 ### B.S. Computer Engineering (Mathematics Minor)
-- Elective: Engineering, Ethics, and Society
-- Elective: Chaos Theory
+- Embedded Systems Design
+- Digital VLSI Design
 
 ### B.S. Computer Science (Japanese Minor)
-- Elective: Gender and Social Change
-- Elective: Zen and Eastern Theatre
+- Software Practice I/II
+- Engineering, Ethics, and Society
 
 *[M.E.A.E]: Master of Entertainment Arts and Engineering
 
@@ -134,7 +128,7 @@ Some of the challenges faced in these two projects included:
 - and procedurally animating many small actors using Game AI techniques.
 
 
-## 2014._12_--2015._06_ [XacFAQ](http://www.guv1.com/xacfaq/)
+## 2014._12_--2015._07_ [XacFAQ](http://www.guv1.com/xacfaq/)
 
 Founded by industry veteran Jon Dean, XacFAQ used Unity to produce social
 games and apps.  I was hired in 2014 on a contract with a third party to
