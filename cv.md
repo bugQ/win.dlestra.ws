@@ -86,16 +86,15 @@ at the [EAE Master Game Studio](https://eae.utah.edu/graduate-programs/),
 [released on Steam](http://store.steampowered.com/app/464700) in April 2016.  
 
 Following Hawaii native lead designer Sean Keanaaina's direction, I
-contributed the implementation of Maui's central mechanic, ***Maomeka Pule***, 
-an innovative HUD system for modulating the player characters's attributes in
-realtime.  Named for the concept of Prayer (*Pule*), the system was designed
+contributed the implementation of Maui's central mechanic, an innovative HUD system for modulating the player characters's attributes in
+realtime.  Named for the concept of Prayer, the Pule system was designed
 to reflect the geographic houses of [the four primary gods of the Hawaiian
 pantheon](http://paulwaters.com/learning/in-the-begining-hawaiian-gods/), and
 made use of basic trigonometry, custom shaders and graphic design principles.
 
-Aside from the central *Pule* system, I implemented the rest of the HUD using
+Aside from the central Pule system, I implemented the rest of the HUD using
 Unity 4.6's UI framework, and integrated it with the in-game glossary, called
-the ***Halau*** (School). In addition, I:
+the Halau (School). In addition, I:
 
 - trained the team on the proper use of distributed version control,
 - stepped in frequently to help resolve merge conflicts and other Git errors,
