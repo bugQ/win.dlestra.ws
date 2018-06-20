@@ -5,6 +5,4 @@ sound: squeak
 class: home
 ---
 
-Oops, you found a bug!
-
-This bug is very busy but wouldn't mind receiving letters.
+You found a bug!  This one happens to be open to receiving letters both personal and profesional.

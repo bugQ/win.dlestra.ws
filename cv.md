@@ -7,10 +7,8 @@ class: cv
 
 # Résumé
 
-I'm a game engineer with over 4 years professional software development
-experience and a strong educational backing in engineering practice and theory,
-as well as many years of experience passing along knowledge on in tutoring and
-peer training. I'm accustomed to acquiring skills and fulfilling roles as the
+I'm a game engineer with over 5 years professional software development
+experience and a strong educational backing in engineering practice and theory. I'm accustomed to acquiring skills and fulfilling roles as the
 job mandates, including:
 
 - source code integration
@@ -19,10 +17,9 @@ job mandates, including:
 - meeting facilitation
 - peer software training
 
-On the more technical side, I'm familiar with cross-platform front-end
-development (for desktop and mobile) using a variety of frameworks and
-tools, but with an emphasis on [Unity](https://unity3d.com/) and now
-also [Xamarin](https://www.xamarin.com/). Although a majority of my
+My technical specialties are cross-platform (desktop and mobile) front-end
+development using a variety of frameworks and
+tools (most notably [Unity](https://unity3d.com/) and [Xamarin](https://www.xamarin.com/)), and real-time systems and graphics programming (primarily game engines). Although a majority of my
 programming experience lies with **C#** and **C++**, I continue to hone my skills with other languages, including
 **Ruby**, **Rust**, **Javascript**, **Haskell**, **Elm**, and **F#**, covering a wide range of paradigms and remaining adaptable to many programming domains.
 
@@ -56,13 +53,13 @@ In a partnership with an independent designer, I'm currently developing a mobile
 
 I provide one-on-one help to students of mathematics and computer science, up to and including calculus, linear algebra and statistics, as well as boolean logic, computer architecture, scientific computing, and high-level software design.
 
-I make special effort to ensure that students are self-motivated, and to reveal the simplicity underlying most complex topics, through the use of allegorical language and visual aids, on which we then collaborate to achieve understanding.
+I make special effort to ensure that students are self-motivated, and to reveal the simplicity underlying these complex topics.
 
 Most of this work has been done on a volunteer or informal contract basis.
 
 ## 2017._04_--2017._09_ [Punk This Studios](http://punkthisstudios.com/)
 
-Working under the direction of the company founder, over a long-distance
+Working under the direction of the company founder over a
 remote contract, I rewrote a prototype 2.5D game engine from SDL/C++98
 into SDL2/C++11 while cooperatively working out design flaws and designing
 new features.  We exchanged expertise regarding C++11 standards and
