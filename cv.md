@@ -23,9 +23,8 @@ On the more technical side, I'm familiar with cross-platform front-end
 development (for desktop and mobile) using a variety of frameworks and
 tools, but with an emphasis on [Unity](https://unity3d.com/) and now
 also [Xamarin](https://www.xamarin.com/). Although a majority of my
-programming experience lies with **C#** and **C++**, I have worked with
-and maintain familiarity with other languages, including
-**Javascript**, **Ruby**, **Rust**, **Haskell**, **F#** and **OCaml**.
+programming experience lies with **C#** and **C++**, I continue to hone my skills with other languages, including
+**Ruby**, **Rust**, **Javascript**, **Haskell**, **Elm**, and **F#**, covering a wide range of paradigms and remaining adaptable to many programming domains.
 
 
 # Éducation
@@ -48,6 +47,10 @@ and maintain familiarity with other languages, including
 
 
 # Expérience
+
+## 2018._02_ --Today [TBA]()
+
+In a partnership with an independent designer, I'm currently developing a mobile application for the tabletop gaming market, using a cutting edge combination of tools within Visual Studio: F# and Xamarin.Forms.  Details are forthcoming this year.
 
 ## 2005._12_ --Today [Tutoring]()
 
