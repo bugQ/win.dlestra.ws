@@ -7,7 +7,7 @@ class: cv
 
 # Résumé
 
-I'm a game engineer with over 5 years professional software development
+I'm a software engineer with over 5 years professional
 experience and a strong educational backing in engineering practice and theory. I'm accustomed to acquiring skills and fulfilling roles as the
 job mandates, including:
 
