@@ -37,7 +37,7 @@ programming experience lies with **C#** and **C++**, I continue to hone my skill
 - Digital VLSI Design
 
 ### B.S. Computer Science (Japanese Minor)
-- Software Practice I/II
+- Scientific Computing
 - Engineering, Ethics, and Society
 
 *[M.E.A.E]: Master of Entertainment Arts and Engineering
