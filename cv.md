@@ -5,8 +5,6 @@ sound: work
 class: cv
 ---
 
-# Résumé
-
 I'm a software engineer with over 5 years professional
 experience and a strong educational backing in engineering practice and theory. I'm accustomed to acquiring skills and fulfilling roles as the
 job mandates, including:
@@ -17,14 +15,16 @@ job mandates, including:
 - meeting facilitation
 - peer software training
 
-My technical specialties are cross-platform (desktop and mobile) front-end
-development using a variety of frameworks and
-tools (most notably [Unity](https://unity3d.com/) and [Xamarin](https://www.xamarin.com/)), and real-time systems and graphics programming (primarily game engines). Although a majority of my
-programming experience lies with **C#** and **C++**, I continue to hone my skills with other languages, including
-**Ruby**, **Rust**, **Javascript**, **Haskell**, **Elm**, and **F#**, covering a wide range of paradigms and remaining adaptable to many programming domains.
+My engineering specialties are **front-end development** (most notably with
+[Unity](https://unity3d.com/) and [Xamarin](https://www.xamarin.com/)) and
+**real-time systems and graphics programming** (primarily game engines).
+Although a majority of my  programming experience lies with **C#** and **C++**,
+I continue to hone my skills with other languages, including
+**Ruby**, **Rust**, **Javascript**, **Haskell**, **Elm**, and **F#**,
+making them adaptable to many domains.
 
 
-# Éducation
+# Education
 
 ## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu/)
 
@@ -43,11 +43,11 @@ programming experience lies with **C#** and **C++**, I continue to hone my skill
 *[M.E.A.E]: Master of Entertainment Arts and Engineering
 
 
-# Expérience
+# Experience
 
 ## 2018._02_ --Today [TBA]()
 
-In a partnership with an independent designer, I'm currently developing a mobile application for the tabletop gaming market, using a cutting edge combination of tools within Visual Studio: F# and Xamarin.Forms.  Details are forthcoming this year.
+In a partnership with an independent designer, I'm currently developing a mobile application for the tabletop gaming market, using a cutting edge combination of tools within Visual Studio: F# and Xamarin.Forms.  More details this year.
 
 ## 2005._12_ --Today [Tutoring]()
 
@@ -155,4 +155,3 @@ assigned special software projects such as:
 
 As a computer support technician, I also shared responsibly for software
 package updates and maintenance, and responding to technical support tickets.
-

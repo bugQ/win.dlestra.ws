@@ -15,7 +15,7 @@ a:active { border-bottom: 3px solid; margin-bottom: -3px; }
 a, a:visited { color: #831; }
 a:active, a:focus, a:hover { color: #C42; }
 
-html, body {
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -30,7 +30,6 @@ html, body {
 main, header, footer {
     background: #CDB;
     max-width: 800px;
-    max-width: 75ch;
     margin: 0 auto;
 }
 
@@ -51,18 +50,24 @@ h1, h2 {
     margin-top: 1em;
 }
 
-header h1 {
+.name {
     font-family: 'Fugaz One', cursive;
     text-align: center;
+    text-transform: lowercase;
     padding: 0.5em 0 0;
+}
+
+.name:after {
+    content: '!';
 }
 
 h1 { font-weight: 700; }
 h2, h3, h4, h5, h6 { font-weight: 600; }
 
-address.email { text-align: center; }
+footer { text-align: center; }
 address.email:before { content: attr(local-part); }
 address.email:after { content: attr(domain-part); }
+address.phone { display: none; }
 
 h1 { font-size: 2.5em; }
 h2 { font-size: 1.5em; }
@@ -111,6 +116,7 @@ nav a:focus, nav a:hover {
 nav a:active,
 .home nav a.home,
 .cv nav a.cv,
+.apps nav a.apps,
 .games nav a.games {
     border-bottom: solid;
 }
@@ -154,41 +160,79 @@ nav a.steam {
     font-style: italic;
 }
 
-.games main ul {
+ul.portfolio {
     list-style-type: none;
     margin: 0 0 1em;
     padding: 0;
     overflow: auto;
 }
 
-.games main h2 a {
+ul.portfolio h2 a {
     font-family: 'Fugaz One', cursive;
 }
 
-.games main ul li h2 img {
+ul.portfolio li h2 img {
     width: 60%;
 }
 
-.games main ul li:nth-of-type(odd) {
+ul.portfolio li:nth-of-type(odd) {
     text-align: right;
 }
 
-.games main ul li:nth-of-type(odd) h2 img {
+ul.portfolio li:nth-of-type(odd) h2 img {
     float: right;
     margin-left: 1em;
     clear: left;
 }
 
-.games main ul li:nth-of-type(odd) h2 {
+ul.portfolio li:nth-of-type(odd) h2 {
     clear: left;
 }
 
-.games main ul li:nth-of-type(even) h2 img {
+ul.portfolio li:nth-of-type(even) h2 img {
     float: left;
     margin-right: 1em;
     clear: right;
 }
 
-.games main ul li:nth-of-type(even) h2 {
+ul.portfolio li:nth-of-type(even) h2 {
     clear: right;
+}
+
+
+/* Print. */
+
+@media print {
+    body {
+        display: table;
+        background-color: rgba(255, 255, 255, 0);
+        color: black;
+    }
+    main { display: table-footer-group; }
+    footer { padding: 0 0 1em; }
+
+    abbr { text-decoration-line: none; }
+
+    .name {
+        text-transform: none;
+        padding: 0;
+        margin-top: 0;
+    }
+    .name:before {
+        font-size: 80%;
+        content: attr(legal-forename) ' "';
+    }
+    .name:after {
+        font-size: 80%;
+        content: '" ' attr(legal-surname);
+    }
+
+    nav {
+        display: none;
+    }
+
+    address.phone { display: block; }
+    address.phone:after {
+        content: attr(country-code) ' (' attr(area-code) ') ' attr(central-office-code) '-' attr(line-number);
+    }
 }

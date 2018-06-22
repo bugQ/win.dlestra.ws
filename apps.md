@@ -2,7 +2,7 @@
 layout: default
 title: apps!
 sound: chirp
-class: games
+class: apps
 ---
 
 # Current Projects
@@ -27,3 +27,4 @@ samples may be available for other projects [upon request](#contact).
   in Mumbai to screen for infectious diseases, integrating with portable
   testing devices and remote databases while allowing data collection
   without a persistent connection in the field.
+{: .portfolio}

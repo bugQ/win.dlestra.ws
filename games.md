@@ -19,6 +19,7 @@ Information about team members or specific contributions can be found on my
   ### (1--4 player, XBLIG, no longer available)
   A goblin faces down peril and humans led by a wicked dragon, with the
   help of friends and magical hats.
+{: .portfolio}
 
 # Experiments
 These web-based prototypes were each made in a single day.  
