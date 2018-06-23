@@ -45,13 +45,17 @@ making them adaptable to many domains.
 
 # Experience
 
-## 2018._02_ --Today [TBA]()
+## 2018._02_--Present [TBA]()
 
-In a partnership with an independent designer, I'm currently developing a mobile application for the tabletop gaming market, using a cutting edge combination of tools within Visual Studio: F# and Xamarin.Forms.  More details this year.
+In a partnership with an independent designer, I'm currently developing a mobile
+application for the tabletop gaming market, using a cutting edge combination of
+tools within Visual Studio: F# and Xamarin.Forms.  More details this year.
 
-## 2005._12_ --Today [Tutoring]()
+## 2005._12_--Present [Tutoring]()
 
-I provide one-on-one help to students of mathematics and computer science, up to and including calculus, linear algebra and statistics, as well as boolean logic, computer architecture, scientific computing, and high-level software design.
+I provide one-on-one help to students of mathematics and computer science, up to
+and including calculus, linear algebra and statistics, as well as boolean logic,
+computer architecture, scientific computing, and high-level software design.
 
 I make special effort to ensure that students are self-motivated, and to reveal the simplicity underlying these complex topics.
 

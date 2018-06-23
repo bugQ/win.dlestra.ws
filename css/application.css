@@ -22,6 +22,7 @@ body {
 
     font-family: 'Raleway', sans-serif;
     font-size: 110%;
+    font-weight: 400;
 
     background: #696;
     color: #411;
@@ -151,8 +152,9 @@ nav a.steam {
 }
 
 .cv main h2 em {
-    font-style: normal;
+    font-style: inherit;
     font-size: 0.71em;
+    font-weight: 700;
 }
 
 .cv main h3 + ul {
