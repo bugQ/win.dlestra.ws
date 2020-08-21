@@ -12,7 +12,7 @@ with specialties in **front-end development** (most notably with
 (game engines, scientific visualisations, etc.).
 Although a majority of my  programming experience lies with **C#** and **C++**,
 I continue to hone my skills with other languages, including
-**Ruby**, **Rust**, **Javascript**, **Haskell**, **Elm**, and **F#**.
+**Ruby**, **Rust**, **Javascript**, **Typescript**, **Haskell**, **Elm**, and **F#**.
 
 I'm accustomed to acquiring team skills and fulfilling roles as the
 job mandates, including:
@@ -33,7 +33,7 @@ Maintaining over 70 applications used actively by students, faculty, and staff.
 Heavy use of ASP.NET Core (or legacy MVC) for web applications, frontends using Bootstrap
 and Vue.JS (or legacy jQuery).  Database schema design, administration, and automation.
 
-Coordination with multiple stakeholders to gather requirements and involve them in
+Coordination with stakeholders to gather requirements and involve them in
 continuous integration and testing.
 
 
