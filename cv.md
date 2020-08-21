@@ -5,61 +5,47 @@ sound: work
 class: cv
 ---
 
-I'm a software engineer with over 5 years professional
-experience and a strong educational backing in engineering practice and theory. I'm accustomed to acquiring skills and fulfilling roles as the
-job mandates, including:
-
-- source code integration
-- server administration
-- team management
-- meeting facilitation
-- peer software training
-
-My engineering specialties are **front-end development** (most notably with
-[Unity](https://unity3d.com/) and [Xamarin](https://www.xamarin.com/)) and
-**real-time systems and graphics programming** (primarily game engines).
+I'm a software engineer with over 5 years professional experience,
+with specialties in **front-end development** (most notably with
+[ASP.Net](https://asp.net/), [VueJS](https://vuejs.org/), and
+[Unity](https://unity3d.com/)) and **real-time systems and graphics programming**
+(game engines, scientific visualisations, etc.).
 Although a majority of my  programming experience lies with **C#** and **C++**,
 I continue to hone my skills with other languages, including
-**Ruby**, **Rust**, **Javascript**, **Haskell**, **Elm**, and **F#**,
-making them adaptable to many domains.
+**Ruby**, **Rust**, **Javascript**, **Haskell**, **Elm**, and **F#**.
 
+I'm accustomed to acquiring team skills and fulfilling roles as the
+job mandates, including:
 
-# Education
-
-## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu/)
-
-### M.E.A.E. Game Engineering
-- Rapid Prototyping
-- A.I. for Games
-
-### B.S. Computer Engineering (Mathematics Minor)
-- Embedded Systems Design
-- Digital VLSI Design
-
-### B.S. Computer Science (Japanese Minor)
-- Scientific Computing
-- Engineering, Ethics, and Society
-
-*[M.E.A.E]: Master of Entertainment Arts and Engineering
+- source management/integration
+- server administration
+- meeting facilitation
+- peer software training
+- dev tool innovation
 
 
 # Experience
 
-## 2018._02_--Present [TBA]()
+## 2018._08_--2020._+_ [University of Missouri Division of IT](https://doit.missouri.edu)
 
-In a partnership with an independent designer, I'm currently developing a mobile
-application for the tabletop gaming market, using a cutting edge combination of
-tools within Visual Studio: F# and Xamarin.Forms.  More details this year.
+Maintaining over 70 applications used actively by students, faculty, and staff.
 
-## 2005._12_--Present [Tutoring]()
+Heavy use of ASP.NET Core (or legacy MVC) for web applications, frontends using Bootstrap
+and Vue.JS (or legacy jQuery).  Database schema design, administration, and automation.
 
-I provide one-on-one help to students of mathematics and computer science, up to
+Coordination with multiple stakeholders to gather requirements and involve them in
+continuous integration and testing.
+
+
+## 2005._12_--2018._07_ [Private Tutoring]()
+
+Providing one-on-one help to students of mathematics and computer science, up to
 and including calculus, linear algebra and statistics, as well as boolean logic,
 computer architecture, scientific computing, and high-level software design.
 
-I make special effort to ensure that students are self-motivated, and to reveal the simplicity underlying these complex topics.
+Making special effort to ensure that students are self-motivated,
+and to reveal the simplicity underlying these complex topics.
 
-Most of this work has been done on a volunteer or informal contract basis.
 
 ## 2017._04_--2017._09_ [Punk This Studios](http://punkthisstudios.com/)
 
@@ -82,7 +68,6 @@ Additionally, I incorporated and documented build scripts for a
 [cross-platform build system](http://mesonbuild.com/), enabling a Linux
 build and bringing it into stricter C++ standards adherence.
 
-
 ## 2015._08_--2016._05_ [Kokua Games](https://www.kokuagames.com/)
 
 [Maui](https://www.kokuagames.com/) was a 12-member professional game project
@@ -90,15 +75,15 @@ at the [EAE Master Game Studio](https://eae.utah.edu/graduate-programs/),
 [released on Steam](http://store.steampowered.com/app/464700) in April 2016.  
 
 Following Hawaii native lead designer Sean Keanaaina's direction, I
-contributed the implementation of Maui's central mechanic, an innovative HUD system for modulating the player characters's attributes in
+contributed the implementation of Maui's central mechanic, an innovative HUD
+system for modulating the player characters's attributes in
 realtime.  Named for the concept of Prayer, the Pule system was designed
 to reflect the geographic houses of [the four primary gods of the Hawaiian
 pantheon](http://paulwaters.com/learning/in-the-begining-hawaiian-gods/), and
-made use of basic trigonometry, custom shaders and graphic design principles.
+made use of custom shaders and graphic design principles.
 
-Aside from the central Pule system, I implemented the rest of the HUD using
-Unity 4.6's UI framework, and integrated it with the in-game glossary, called
-the Halau (School). In addition, I:
+Aside from the central Pule system, I implemented the rest of the HUD and
+integrated it with the in-game glossary, called the Halau.  In addition, I:
 
 - trained the team on the proper use of distributed version control,
 - stepped in frequently to help resolve merge conflicts and other Git errors,
@@ -106,7 +91,6 @@ the Halau (School). In addition, I:
 - assisted in design and research efforts to ensure an educational and
   culturally accurate experience (see:
   [video review by GamingArcheo](https://youtu.be/B-90i49uuzc)).
-
 
 ## 2015._08_--2016._05_ [The Gapp Lab](https://thegapp.eae.utah.edu/)
 
@@ -146,7 +130,6 @@ work involved:
 - client-side JSON-based server interactions,
 - and integration with plugins for Facebook accounts and in-app purchases.
 
-
 ## 2012._01_--2014._04_ [J. Willard Marriott Library](https://lib.utah.edu)
 
 Working in the library's Apple IT Services group, which oversees hundreds of
@@ -159,3 +142,22 @@ assigned special software projects such as:
 
 As a computer support technician, I also shared responsibly for software
 package updates and maintenance, and responding to technical support tickets.
+
+
+# Education
+
+## 2006._08_--2016._12_ [University of Utah](http://www.utah.edu/)
+
+### M.E.A.E. Game Engineering
+- Rapid Prototyping
+- A.I. for Games
+
+### B.S. Computer Engineering (Mathematics Minor)
+- Embedded Systems Design
+- Digital VLSI Design
+
+### B.S. Computer Science (Japanese Minor)
+- Scientific Computing
+- Engineering, Ethics, and Society
+
+*[M.E.A.E]: Master of Entertainment Arts and Engineering
